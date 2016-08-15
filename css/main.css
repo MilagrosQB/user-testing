@@ -159,7 +159,27 @@ body {
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    top: 9%;
+    top: 2%;
+    left: 93%;
+}
+
+.circle-icono2 {
+	background-color: #50BDEA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    left: 93%;
+}
+
+.circle-icono3 {
+	background-color: #50BDEA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
     left: 93%;
 }
 
@@ -193,14 +213,10 @@ body {
 .pad-3 {
 	padding-left: 5%;
 }
-/*contacto*/
 
-#contacto {
-	background: url(../image/large.jpg) no-repeat;
-	background-size: cover;
-	height: auto;
+.separador-2 {
+	padding: 10% 100%;
 }
-
 
 /*porque usarlo*/
 
@@ -256,4 +272,53 @@ footer a{
 
 footer a:hover {
 	text-decoration: none;
+}
+
+/*contacto*/
+
+#contacto {
+	background: url(../image/large.jpg) no-repeat;
+	background-size: cover;
+	color: #000000;
+	font-weight: bold;
+	height: auto;
+}
+
+.fondo-contacto {
+	background-color: #FFFFFF;
+	border-top: 5px solid #0271BE;
+}
+
+.pad-7{
+	padding: 8% 20%;
+}
+
+.pad-5 {
+	padding-right: 3%;
+}
+.color-rojo {
+	color: #FF0000;
+}
+
+.linea-apoyo {
+	width: 390px;
+    height: 0.5px;
+    margin: 3% auto;
+    background-color: #454545;
+}
+
+.btn-enviar {
+  	border-radius: 5px;
+ 	background: #2578B9;
+ 	color: #ffffff;
+ 	font-size: 24px;
+ 	padding: 2px 30px 2px 30px;
+  	border: solid #ffffff 2px;
+  	text-decoration: none;
+}
+
+.btn-prueba:hover {
+	background: #034175;
+ 	color: #ffffff;
+ 	text-decoration: none;
 }
