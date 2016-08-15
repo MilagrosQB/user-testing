@@ -1,0 +1,192 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.logo {
+	width: 75%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #0170C2;
+}
+
+
+/*portada*/
+
+#portada {
+	background: url(../image/large.jpg) no-repeat;
+	background-size: cover;
+	height: auto;
+	color: #FFFFFF;
+}
+
+.fondo-mensaje {
+	background-color: #333333;
+	opacity: 0.6;
+}
+.mensaje-principal {
+	margin: auto;
+    padding: 15% 25%;
+    font-size: 3em;
+}
+
+.fondo-mensaje-prueba {
+  	background: #2578B9;
+	opacity: 0.9;
+}
+
+.pad-1 {
+	padding: 3% 0%;
+}
+
+.pad-2 {
+	padding: 5% 4%;
+}
+
+.btn-prueba {
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+/*servicios*/
+
+#servicios {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.titulo-seccion {
+	font-size: 30px;
+	color: #2578B9;
+	padding: 6% 0%;
+}
+
+.icono-servicio {
+	font-size: 45px;
+	font-weight: bold;
+	color: #2578B9;
+	padding: 6% 0%;
+}
+
+.subtitulo-seccion {
+	font-size: 24px;
+	color: #2578B9 ;
+	padding: 0% 22%;
+}
+
+.parrafo-seccion {
+	font-size: 16px;
+	color: #000000;
+	padding: 0% 15%;
+}
+
+.separador {
+	padding: 8% 0%;
+}
+
+/*ejemplo*/
+
+#ejemplo {
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+.logo2 {
+	width: 40%;
+	height: auto;
+	float: right;
+	margin: -7% 32%;
+}
+
+.titulo-seccion2 {
+	font-size: 30px;
+	color: #2578B9;
+	padding: 0% 0%;
+}
+
+.subtitulo-seccion2 {
+	font-size: 24px;
+	color: #2578B9 ;
+	padding: 0% 0%;
+}
+
+.parrafo-seccion2 {
+	font-size: 16px;
+	color: #000000;
+	padding: 0% 0%;
+}
+
+.enlace-ejemplo {
+	font-size: 16px;
+	color: #2578B9;
+}
+
+/* pasos */
+
+#pasos{
+	text-align: left;
+}
+
+.imagen-pasos{
+	background: url(../image/sec-2.jpg) no-repeat;
+	background-size: cover;
+}
+
+.titulo-seccion3 {
+	font-size: 30px;
+	color: #000000;
+	padding: 0% 0%;
+}
+
+.subtitulo-seccion3 {
+	font-size: 24px;
+	color: #2578B9 ;
+	padding: 0% 0%;
+}
+
+.parrafo-seccion3 {
+	font-size: 16px;
+	color: #000000;
+	padding: 0% 0%;
+}
+
+.pad-3 {
+	padding-left: 5%;
+}
+/*contacto*/
+
+#contacto {
+	background: url(../image/large.jpg) no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+
+/*porque usarlo*/
+
+
+
+.image-razon {
+	background: url(..image/banner.jpg) no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+
+
+
+/* footer*/
+
+#footer {
+	background-color: #2A3541;
+	color: #FFFFFF;
+}
